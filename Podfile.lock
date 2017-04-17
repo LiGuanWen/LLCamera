@@ -1,0 +1,118 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CYLTabBarController (1.10.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FDFullscreenPopGesture (1.1)
+  - GPUImage (0.1.7)
+  - HYBNetworking (3.3.1):
+    - AFNetworking (~> 3.1.0)
+  - IQKeyboardManager (4.0.9)
+  - libwebp (0.5.1):
+    - libwebp/core (= 0.5.1)
+    - libwebp/dec (= 0.5.1)
+    - libwebp/demux (= 0.5.1)
+    - libwebp/dsp (= 0.5.1)
+    - libwebp/enc (= 0.5.1)
+    - libwebp/mux (= 0.5.1)
+    - libwebp/utils (= 0.5.1)
+    - libwebp/webp (= 0.5.1)
+  - libwebp/core (0.5.1):
+    - libwebp/webp
+  - libwebp/dec (0.5.1):
+    - libwebp/core
+  - libwebp/demux (0.5.1):
+    - libwebp/core
+  - libwebp/dsp (0.5.1):
+    - libwebp/core
+  - libwebp/enc (0.5.1):
+    - libwebp/core
+  - libwebp/mux (0.5.1):
+    - libwebp/core
+  - libwebp/utils (0.5.1):
+    - libwebp/core
+  - libwebp/webp (0.5.1)
+  - LLCamera (1.0.0):
+    - TuSDK (= 2.4.6)
+  - LLKit (1.0.0):
+    - CYLTabBarController
+    - DZNEmptyDataSet
+    - FDFullscreenPopGesture
+    - HYBNetworking (~> 3.3.0)
+    - IQKeyboardManager
+    - libwebp
+    - Masonry
+    - MBProgressHUD (~> 0.9.1)
+    - MJRefresh
+    - SDWebImage (~> 3.7.6)
+    - SDWebImage/WebP
+    - TYPagerController
+    - YYKit
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.12)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SDWebImage/WebP (3.7.6):
+    - libwebp
+    - SDWebImage/Core
+  - TuSDK (2.4.6):
+    - GPUImage (~> 0.1.6)
+  - TYPagerController (1.0.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - LLCamera (from `.`)
+  - LLKit (from `https://github.com/LiGuanWen/LLKit.git`, branch `1.0.0`)
+  - TuSDK (= 2.4.6)
+
+EXTERNAL SOURCES:
+  LLCamera:
+    :path: "."
+  LLKit:
+    :branch: 1.0.0
+    :git: https://github.com/LiGuanWen/LLKit.git
+
+CHECKOUT OPTIONS:
+  LLKit:
+    :commit: f8d1845b95a750a734a34ffaac310616ced1e037
+    :git: https://github.com/LiGuanWen/LLKit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  HYBNetworking: 5b350e2eacfbf6db7d3f4253274b2f2bb68e881c
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  libwebp: b9126f8982a95370cf4eaad9bb3fefd57f052c15
+  LLCamera: fb6730e939fd2ea6e41dfad9bcbb7b6e0195565b
+  LLKit: c0f30406e7fcde6011dc2ff8cd2c7714fa61c8db
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  TuSDK: 9fe905dcae7386e8c93bb7c21e5db056b471751f
+  TYPagerController: 0b3e3e589a217ff537d5f78e1e76594beaa4cfc6
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 669e5e7804c565efa34b9116bde555136a4aac27
+
+COCOAPODS: 1.2.0.beta.3

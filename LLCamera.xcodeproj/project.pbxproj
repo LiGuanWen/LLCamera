@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94ABEF55FAC21D2E0C7E91CB /* libPods-LLCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB9726F0A9EE77BFB68D7E8 /* libPods-LLCamera.a */; };
+		FDA7F4121EA39D59002C2488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7F4111EA39D59002C2488 /* main.m */; };
+		FDA7F4151EA39D59002C2488 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7F4141EA39D59002C2488 /* AppDelegate.m */; };
+		FDA7F4181EA39D59002C2488 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7F4171EA39D59002C2488 /* ViewController.m */; };
+		FDA7F41B1EA39D59002C2488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA7F4191EA39D59002C2488 /* Main.storyboard */; };
+		FDA7F41E1EA39D59002C2488 /* LLCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDA7F41C1EA39D59002C2488 /* LLCamera.xcdatamodeld */; };
+		FDA7F4201EA39D59002C2488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA7F41F1EA39D59002C2488 /* Assets.xcassets */; };
+		FDA7F4231EA39D59002C2488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA7F4211EA39D59002C2488 /* LaunchScreen.storyboard */; };
+		FDA7F42E1EA39D59002C2488 /* LLCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7F42D1EA39D59002C2488 /* LLCameraTests.m */; };
+		FDA7F4391EA39D59002C2488 /* LLCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA7F4381EA39D59002C2488 /* LLCameraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA7F42A1EA39D59002C2488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA7F4051EA39D58002C2488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA7F40C1EA39D58002C2488;
+			remoteInfo = LLCamera;
+		};
+		FDA7F4351EA39D59002C2488 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA7F4051EA39D58002C2488 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA7F40C1EA39D58002C2488;
+			remoteInfo = LLCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CB9726F0A9EE77BFB68D7E8 /* libPods-LLCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLCamera.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B299CF351E73339321D2F8E3 /* Pods-LLCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLCamera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLCamera/Pods-LLCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		B99359A03C40DE8F992580F9 /* Pods-LLCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLCamera.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLCamera/Pods-LLCamera.release.xcconfig"; sourceTree = "<group>"; };
+		FDA7F40D1EA39D58002C2488 /* LLCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA7F4111EA39D59002C2488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA7F4131EA39D59002C2488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA7F4141EA39D59002C2488 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA7F4161EA39D59002C2488 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDA7F4171EA39D59002C2488 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDA7F41A1EA39D59002C2488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA7F41D1EA39D59002C2488 /* LLCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LLCamera.xcdatamodel; sourceTree = "<group>"; };
+		FDA7F41F1EA39D59002C2488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA7F4221EA39D59002C2488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA7F4241EA39D59002C2488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA7F4291EA39D59002C2488 /* LLCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA7F42D1EA39D59002C2488 /* LLCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLCameraTests.m; sourceTree = "<group>"; };
+		FDA7F42F1EA39D59002C2488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA7F4341EA39D59002C2488 /* LLCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA7F4381EA39D59002C2488 /* LLCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLCameraUITests.m; sourceTree = "<group>"; };
+		FDA7F43A1EA39D59002C2488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA7F40A1EA39D58002C2488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94ABEF55FAC21D2E0C7E91CB /* libPods-LLCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7F4261EA39D59002C2488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7F4311EA39D59002C2488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2F899EC61A5CC18113E282 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB9726F0A9EE77BFB68D7E8 /* libPods-LLCamera.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4392D229DDDB2629101A6DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B299CF351E73339321D2F8E3 /* Pods-LLCamera.debug.xcconfig */,
+				B99359A03C40DE8F992580F9 /* Pods-LLCamera.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDA7F4041EA39D58002C2488 = {
+			isa = PBXGroup;
+			children = (
+				FDA7F40F1EA39D58002C2488 /* LLCamera */,
+				FDA7F42C1EA39D59002C2488 /* LLCameraTests */,
+				FDA7F4371EA39D59002C2488 /* LLCameraUITests */,
+				FDA7F40E1EA39D58002C2488 /* Products */,
+				F4392D229DDDB2629101A6DB /* Pods */,
+				DC2F899EC61A5CC18113E282 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA7F40E1EA39D58002C2488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7F40D1EA39D58002C2488 /* LLCamera.app */,
+				FDA7F4291EA39D59002C2488 /* LLCameraTests.xctest */,
+				FDA7F4341EA39D59002C2488 /* LLCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA7F40F1EA39D58002C2488 /* LLCamera */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7F4131EA39D59002C2488 /* AppDelegate.h */,
+				FDA7F4141EA39D59002C2488 /* AppDelegate.m */,
+				FDA7F4161EA39D59002C2488 /* ViewController.h */,
+				FDA7F4171EA39D59002C2488 /* ViewController.m */,
+				FDA7F4191EA39D59002C2488 /* Main.storyboard */,
+				FDA7F41F1EA39D59002C2488 /* Assets.xcassets */,
+				FDA7F4101EA39D58002C2488 /* Supporting Files */,
+			);
+			path = LLCamera;
+			sourceTree = "<group>";
+		};
+		FDA7F4101EA39D58002C2488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7F4211EA39D59002C2488 /* LaunchScreen.storyboard */,
+				FDA7F4241EA39D59002C2488 /* Info.plist */,
+				FDA7F41C1EA39D59002C2488 /* LLCamera.xcdatamodeld */,
+				FDA7F4111EA39D59002C2488 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDA7F42C1EA39D59002C2488 /* LLCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7F42D1EA39D59002C2488 /* LLCameraTests.m */,
+				FDA7F42F1EA39D59002C2488 /* Info.plist */,
+			);
+			path = LLCameraTests;
+			sourceTree = "<group>";
+		};
+		FDA7F4371EA39D59002C2488 /* LLCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA7F4381EA39D59002C2488 /* LLCameraUITests.m */,
+				FDA7F43A1EA39D59002C2488 /* Info.plist */,
+			);
+			path = LLCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA7F40C1EA39D58002C2488 /* LLCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA7F43D1EA39D59002C2488 /* Build configuration list for PBXNativeTarget "LLCamera" */;
+			buildPhases = (
+				9D4EC128333C31C8D6B86C1C /* [CP] Check Pods Manifest.lock */,
+				FDA7F4091EA39D58002C2488 /* Sources */,
+				FDA7F40A1EA39D58002C2488 /* Frameworks */,
+				FDA7F40B1EA39D58002C2488 /* Resources */,
+				91CB5227D7D12099E18E3B75 /* [CP] Embed Pods Frameworks */,
+				FA32D2FF33ADB52023916FEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLCamera;
+			productName = LLCamera;
+			productReference = FDA7F40D1EA39D58002C2488 /* LLCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA7F4281EA39D59002C2488 /* LLCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA7F4401EA39D59002C2488 /* Build configuration list for PBXNativeTarget "LLCameraTests" */;
+			buildPhases = (
+				FDA7F4251EA39D59002C2488 /* Sources */,
+				FDA7F4261EA39D59002C2488 /* Frameworks */,
+				FDA7F4271EA39D59002C2488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA7F42B1EA39D59002C2488 /* PBXTargetDependency */,
+			);
+			name = LLCameraTests;
+			productName = LLCameraTests;
+			productReference = FDA7F4291EA39D59002C2488 /* LLCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA7F4331EA39D59002C2488 /* LLCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA7F4431EA39D59002C2488 /* Build configuration list for PBXNativeTarget "LLCameraUITests" */;
+			buildPhases = (
+				FDA7F4301EA39D59002C2488 /* Sources */,
+				FDA7F4311EA39D59002C2488 /* Frameworks */,
+				FDA7F4321EA39D59002C2488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA7F4361EA39D59002C2488 /* PBXTargetDependency */,
+			);
+			name = LLCameraUITests;
+			productName = LLCameraUITests;
+			productReference = FDA7F4341EA39D59002C2488 /* LLCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA7F4051EA39D58002C2488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "李龙";
+				TargetAttributes = {
+					FDA7F40C1EA39D58002C2488 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DDP4VPD895;
+						ProvisioningStyle = Automatic;
+					};
+					FDA7F4281EA39D59002C2488 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DDP4VPD895;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDA7F40C1EA39D58002C2488;
+					};
+					FDA7F4331EA39D59002C2488 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DDP4VPD895;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDA7F40C1EA39D58002C2488;
+					};
+				};
+			};
+			buildConfigurationList = FDA7F4081EA39D58002C2488 /* Build configuration list for PBXProject "LLCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA7F4041EA39D58002C2488;
+			productRefGroup = FDA7F40E1EA39D58002C2488 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA7F40C1EA39D58002C2488 /* LLCamera */,
+				FDA7F4281EA39D59002C2488 /* LLCameraTests */,
+				FDA7F4331EA39D59002C2488 /* LLCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA7F40B1EA39D58002C2488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA7F4231EA39D59002C2488 /* LaunchScreen.storyboard in Resources */,
+				FDA7F4201EA39D59002C2488 /* Assets.xcassets in Resources */,
+				FDA7F41B1EA39D59002C2488 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7F4271EA39D59002C2488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7F4321EA39D59002C2488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91CB5227D7D12099E18E3B75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLCamera/Pods-LLCamera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4EC128333C31C8D6B86C1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA32D2FF33ADB52023916FEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLCamera/Pods-LLCamera-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA7F4091EA39D58002C2488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA7F4181EA39D59002C2488 /* ViewController.m in Sources */,
+				FDA7F4151EA39D59002C2488 /* AppDelegate.m in Sources */,
+				FDA7F41E1EA39D59002C2488 /* LLCamera.xcdatamodeld in Sources */,
+				FDA7F4121EA39D59002C2488 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7F4251EA39D59002C2488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA7F42E1EA39D59002C2488 /* LLCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA7F4301EA39D59002C2488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA7F4391EA39D59002C2488 /* LLCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA7F42B1EA39D59002C2488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA7F40C1EA39D58002C2488 /* LLCamera */;
+			targetProxy = FDA7F42A1EA39D59002C2488 /* PBXContainerItemProxy */;
+		};
+		FDA7F4361EA39D59002C2488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA7F40C1EA39D58002C2488 /* LLCamera */;
+			targetProxy = FDA7F4351EA39D59002C2488 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA7F4191EA39D59002C2488 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA7F41A1EA39D59002C2488 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA7F4211EA39D59002C2488 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA7F4221EA39D59002C2488 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA7F43B1EA39D59002C2488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA7F43C1EA39D59002C2488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA7F43E1EA39D59002C2488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B299CF351E73339321D2F8E3 /* Pods-LLCamera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DDP4VPD895;
+				INFOPLIST_FILE = LLCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDA7F43F1EA39D59002C2488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99359A03C40DE8F992580F9 /* Pods-LLCamera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DDP4VPD895;
+				INFOPLIST_FILE = LLCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDA7F4411EA39D59002C2488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DDP4VPD895;
+				INFOPLIST_FILE = LLCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLCamera.app/LLCamera";
+			};
+			name = Debug;
+		};
+		FDA7F4421EA39D59002C2488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DDP4VPD895;
+				INFOPLIST_FILE = LLCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLCamera.app/LLCamera";
+			};
+			name = Release;
+		};
+		FDA7F4441EA39D59002C2488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DDP4VPD895;
+				INFOPLIST_FILE = LLCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLCamera;
+			};
+			name = Debug;
+		};
+		FDA7F4451EA39D59002C2488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DDP4VPD895;
+				INFOPLIST_FILE = LLCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liguanwen.LLCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA7F4081EA39D58002C2488 /* Build configuration list for PBXProject "LLCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA7F43B1EA39D59002C2488 /* Debug */,
+				FDA7F43C1EA39D59002C2488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA7F43D1EA39D59002C2488 /* Build configuration list for PBXNativeTarget "LLCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA7F43E1EA39D59002C2488 /* Debug */,
+				FDA7F43F1EA39D59002C2488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA7F4401EA39D59002C2488 /* Build configuration list for PBXNativeTarget "LLCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA7F4411EA39D59002C2488 /* Debug */,
+				FDA7F4421EA39D59002C2488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDA7F4431EA39D59002C2488 /* Build configuration list for PBXNativeTarget "LLCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA7F4441EA39D59002C2488 /* Debug */,
+				FDA7F4451EA39D59002C2488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDA7F41C1EA39D59002C2488 /* LLCamera.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDA7F41D1EA39D59002C2488 /* LLCamera.xcdatamodel */,
+			);
+			currentVersion = FDA7F41D1EA39D59002C2488 /* LLCamera.xcdatamodel */;
+			path = LLCamera.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDA7F4051EA39D58002C2488 /* Project object */;
+}
